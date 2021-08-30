@@ -1,0 +1,20 @@
+{
+  "name": "cliTodo",
+  "description":"Simple CLI todo, use t/todo for command",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SalikSayyed/react-native-picker-weekday.git"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.1.0",
+    "conf": "^10.0.2"
+  },
+  "bin": {
+    "t": "./bin/index.js",
+    "todo": "./bin/index.js"
+  }
+}
