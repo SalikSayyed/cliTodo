@@ -1,7 +1,7 @@
 {
-  "name": "cli-based-todo-application",
+  "name": "cli-todo-app",
   "description": "Simple CLI todo, use t/todo for command",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "license": "MIT",
   "repository": {
@@ -16,5 +16,17 @@
   "bin": {
     "t": "./bin/index.js",
     "todo": "./bin/index.js"
-  }
+  },
+  "keywords": [
+    "todo",
+    "node todo",
+    "command line tools",
+    "cli tools",
+    "cli todo",
+    "todo cli",
+    "todo app",
+    "todo application",
+    "cmd todo",
+    "todo cmd"
+  ]
 }
