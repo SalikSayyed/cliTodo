@@ -1,7 +1,7 @@
 {
   "name": "cli-based-todo-application",
-  "description":"Simple CLI todo, use t/todo for command",
-  "version": "1.0.0",
+  "description": "Simple CLI todo, use t/todo for command",
+  "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
   "repository": {
