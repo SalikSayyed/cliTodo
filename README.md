@@ -21,3 +21,5 @@
   - ###### Notifications will pop when completed a task.
 
 ![image](https://user-images.githubusercontent.com/51844798/131375910-8d59ff9e-1395-487e-a84f-6ed334e9c188.png)
+![image](https://user-images.githubusercontent.com/51844798/131709159-33d980ec-e951-481f-b0da-064093b0cefd.png)
+
