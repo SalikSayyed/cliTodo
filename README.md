@@ -2,6 +2,8 @@
 
 ## Very Simple and Easy to use Todo Command Line application.
 
+## Can Also be imported as a logger in Programs.
+
 ### How to use ?
 
 - #### npm install -g cliTodo
@@ -19,6 +21,26 @@
 - ##### t ra =>remove all todos
 - ##### t n <1 or 0> => 1 for enabling desktop notification, 0 for disabling desktop notification (TEST FEATURE)
   - ###### Notifications will pop when completed a task.
+
+# Wanto to use Programatically or as logger, Go ahead and import (Experimantal).
+
+- ### Export Mode Example
+
+  - ```js
+    const todo = require("./index");
+    try {
+      todo.ra(); //clear all logs
+      todo.n("0"); //disable desktop notifications
+      todo.a(["working"]);
+      todo.md(["1"]);
+      todo.mu(["1"]);
+      todo.rm(["1"]);
+      todo.l();
+      todo.ra(); //clear all
+    } catch (e) {
+      //do nothing keep silent (intentional for CLI use)
+    }
+    ```
 
 ![image](https://user-images.githubusercontent.com/51844798/131375910-8d59ff9e-1395-487e-a84f-6ed334e9c188.png)
 ![image](https://user-images.githubusercontent.com/51844798/131709159-33d980ec-e951-481f-b0da-064093b0cefd.png)

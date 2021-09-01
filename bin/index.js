@@ -8,6 +8,10 @@ const remove = require('../removetodo')
 const removeAll = require('../removeAll')
 const toggleNotifications = require('../toggleNotification')
 
+if(process.argv.length<3){
+module.exports= {l:list,a:add,md:markDone,mu:markUndone,rm:remove,ra:removeAll,n:toggleNotifications}
+console.log("Entered export mode,\n If u dont know what this is please provide with Options to command like => 't -h'");
+}else{
 program
     .command('l')
     .description('List all the Todo tasks')
@@ -38,3 +42,4 @@ program
     .description('1 => notification on\n0 => notifications off')
     .action(toggleNotifications)
 program.parse()
+}
