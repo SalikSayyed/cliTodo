@@ -46,6 +46,6 @@
 ![image](https://user-images.githubusercontent.com/51844798/131709159-33d980ec-e951-481f-b0da-064093b0cefd.png)
 
 # Contribute
- - ## The objective of this simple project is to Give a flexible CLI tool for Todo App.
- - ## But also to use it as a Logger during Program Execution with Sharablility.
- - ## If u want to contribute, Fork the repo and make pull request from it of any new features. 
+ - #### The objective of this simple project is to Give a flexible CLI tool for Todo App.
+ - #### But also to use it as a Logger during Program Execution with Sharablility.
+ - #### If u want to contribute, Fork the repo and make pull request from it of any new features. 
