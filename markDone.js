@@ -1,6 +1,9 @@
 const conf = new (require('conf'))
 const chalk = require('chalk')
 const list = require('./list')
+const notifier = require('node-notifier');
+const path = require('path');
+const Quote = require('inspirational-quotes');
 
 function markDone(tasks) {
     let todosList = conf.get('todo-list')
@@ -14,6 +17,17 @@ function markDone(tasks) {
                 if (tasks.indexOf(newindex.toString()) !== -1) {
                     //mark only specified tasks by user as done
                     task.done = true
+                    if(conf.get('cli-todo-notifications')=='1'){
+                    notifier.notify(
+                        {
+                          title: 'Congratulations! Reward yourself for completing :'+ task.text,
+                          message: Quote.getRandomQuote(),
+                          icon: path.join(__dirname, './assets/200.gif'),
+                          sound: true, 
+                          wait: true 
+                        }
+                      );
+                    }
                 }
             }
             return task

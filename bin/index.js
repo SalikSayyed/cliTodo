@@ -6,6 +6,7 @@ const markDone = require('../markDone')
 const markUndone = require('../markundone')
 const remove = require('../removetodo')
 const removeAll = require('../removeAll')
+const toggleNotifications = require('../toggleNotification')
 
 program
     .command('l')
@@ -32,4 +33,8 @@ program
     .command('ra')
     .description('Remove all todos')
     .action(removeAll)
+program
+    .command('n <set>')
+    .description('1 => notification on\n0 => notifications off')
+    .action(toggleNotifications)
 program.parse()

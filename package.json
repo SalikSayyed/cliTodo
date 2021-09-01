@@ -1,7 +1,7 @@
 {
   "name": "cli-todo-app",
   "description": "Simple CLI todo, use t/todo for command",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "main": "index.js",
   "license": "MIT",
   "repository": {
@@ -11,7 +11,9 @@
   "dependencies": {
     "chalk": "^4.1.2",
     "commander": "^8.1.0",
-    "conf": "^10.0.2"
+    "conf": "^10.0.2",
+    "inspirational-quotes": "^1.0.8",
+    "node-notifier": "^10.0.0"
   },
   "bin": {
     "t": "./bin/index.js",
