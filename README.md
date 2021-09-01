@@ -22,12 +22,12 @@
 - ##### t n <1 or 0> => 1 for enabling desktop notification, 0 for disabling desktop notification (TEST FEATURE)
   - ###### Notifications will pop when completed a task.
 
-# Wanto to use Programatically or as logger, Go ahead and import (Experimantal).
+# Wanto to use Programatically or as logger, Go ahead and import (Experimental).
 
 - ### Export Mode Example
 
   - ```js
-    const todo = require("./index");
+    import todo from "cli-todo-app";
     try {
       todo.ra(); //clear all logs
       todo.n("0"); //disable desktop notifications
