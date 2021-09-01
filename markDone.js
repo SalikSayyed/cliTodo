@@ -19,7 +19,7 @@ function markDone(tasks) {
                     task.done = true
                     let quote = Quote.getRandomQuote()
                     console.log(chalk.bgYellowBright.green('Hurray! Reward Yourself'))
-                    console.log(chalk.bgGreen.whiteBright.bold(quote));
+                    console.log(chalk.bgGreen.whiteBright.bold(quote))
                     if(conf.get('cli-todo-notifications')=='1'){
                     notifier.notify(
                         {
@@ -29,7 +29,7 @@ function markDone(tasks) {
                           sound: true, 
                           wait: true 
                         }
-                      );
+                      )
                     }
                 }
             }
