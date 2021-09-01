@@ -17,5 +17,7 @@
 - ##### t mu =>undone a todo
 - ##### t rm =>remove todo
 - ##### t ra =>remove all todos
+- ##### t n <1 or 0> => 1 for enabling desktop notification, 0 for disabling desktop notification (TEST FEATURE)
+  - ###### Notifications will pop when completed a task.
 
 ![image](https://user-images.githubusercontent.com/51844798/131375910-8d59ff9e-1395-487e-a84f-6ed334e9c188.png)

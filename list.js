@@ -11,7 +11,7 @@ function list() {
             chalk.blue.bold('Tasks in '),
             chalk.yellow.bold('YELLOW '),
             chalk.blue.bold('are still '),
-            chalk.yellow.bold('NOT DONE.\n')
+            chalk.yellow.bold('NOT DONE.')
         )
         todoList.forEach((task, index) => {
             if (task.done) {

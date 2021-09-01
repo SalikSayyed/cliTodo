@@ -17,11 +17,14 @@ function markDone(tasks) {
                 if (tasks.indexOf(newindex.toString()) !== -1) {
                     //mark only specified tasks by user as done
                     task.done = true
+                    let quote = Quote.getRandomQuote()
+                    console.log(chalk.bgYellowBright.green('Hurray! Reward Yourself'))
+                    console.log(chalk.bgGreen.whiteBright.bold(quote));
                     if(conf.get('cli-todo-notifications')=='1'){
                     notifier.notify(
                         {
                           title: 'Congratulations! Reward yourself for completing :'+ task.text,
-                          message: Quote.getRandomQuote(),
+                          message: quote,
                           icon: path.join(__dirname, './assets/200.gif'),
                           sound: true, 
                           wait: true 
